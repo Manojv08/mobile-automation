@@ -33,8 +33,8 @@ public class flutter_gallery_trial {
 		Set<String> contextHandles = driver.getContextHandles();
 		System.out.println("Context handles : " + contextHandles);
 
-		boolean appInstalled = driver.isAppInstalled("com.vodqareactnative");
-		System.out.println("vodQA App is installed? : " + appInstalled);
+		boolean appInstalled = driver.isAppInstalled("io.flutter.demo.gallery");
+		System.out.println("flutter gallery App is installed? : " + appInstalled);
 
 		common.click("xpath", "//android.view.View[@text='MATERIAL']");
 		
